@@ -1,12 +1,12 @@
 def my_each (collection)
  if block_given?
-   i = 0
-  while i < array length do
-  yield (array[i]) 
-  i = i + 1
+   num = 0
+  while num < collection.length do
+   yield (collection[num]) 
+   num = num + 1
   
   end
 end
-  
+end  
   
   
