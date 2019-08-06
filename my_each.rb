@@ -7,6 +7,7 @@ def my_each (collection)
   
   end
 end
+return collection
 end  
   
   
